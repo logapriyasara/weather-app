@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%); */
+}
+
+.banner {
+  color: #faebefff;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type='text'] {
+  border: 5px solid #ffa351ff;
+  background-color: #edc7b7;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type='text']:focus {
+  border: 5px solid #d198c5ff;
+}
+
+button {
+  padding: 5px;
+  margin-top: 10px;
+  border: 5px solid #00203fff;
+  color: #9fc131ff;
+  background-color: #adefd1ff;
+  border-radius: 5px;
+  width: 20vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#city-name {
+  border: 5px solid #7db46cff;
+  color: #a2a2a1ff;
+  background-color: #ffe77aff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  width: 80vw;
+  text-align: center;
+  padding: 10px;
+}
+
+#weather-type {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  padding: 4px;
+}
+
+#card-body {
+  border: 5px solid #fbeec1;
+  width: 90vw;
+  color: #2d2926ff;
+  background-color: #8d8741;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  margin-top: 5vh;
+}
